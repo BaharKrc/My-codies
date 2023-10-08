@@ -7,5 +7,66 @@
   </head>
   <body>
     <h1>FORMS</h1>
+    <form action="result.html" method="get">
+      <section id="name">
+        <!-- name -->
+        <label for="navn">Navn</label> <br />
+        <input
+          type="text"
+          id="navn"
+          placeholder="input Navn"
+          name="navn"
+          value=""
+          required
+        />
+
+        <br />
+        <br />
+        <!-- email -->
+        <label for="email">E Mail</label> <br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="minst 8 karakter"
+        />
+        <br /><br />
+        <!-- password -->
+        <label for="pass">Password</label> <br />
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          placeholder="iNPUT e mail"
+          required
+        />
+        <br /><br />
+        <!-- age -->
+        <label for="Age">AGE</label> <br />
+        <input
+          type="number"
+          id="age"
+          name="age"
+          min="0"
+          max="160"
+          placeholder="input age"
+        />
+        <br /><br />
+        <!-- gender  RADIO BUTTON-->
+        <label for="Gender">Gender</label> <br />
+        <input type="radio" id="Gender" name="Gender" value="female" checked />
+        female <br />
+        <input type="radio" id="Gender" name="Gender" value="male" checked />
+        male <br />
+        <br /><br />
+      </section>
+      <br />
+      <!-- buttons -->
+      <section id="buttons">
+        <input type="submit" />
+        <input type="submit" value="Save" />
+        <input type="reset" value="Delete" />
+      </section>
+    </form>
   </body>
 </html>
