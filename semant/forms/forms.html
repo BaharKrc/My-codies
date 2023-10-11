@@ -58,10 +58,50 @@
         female <br />
         <input type="radio" id="Gender" name="Gender" value="male" checked />
         male <br />
-        <br /><br />
       </section>
       <br />
+
+      <label for="Favorite cars">Which is your favorite cars?</label>
+      <br />
+
+      <input type="checkbox" id="bmw" name="cars1" value="BMW" />
+      <label for="bmw">BMW</label>
+      <br />
+      <input type="checkbox" id="mercedes" name="cars2" value="mercedes" />
+      <label for="mercedes">Mercedes</label>
+      <br />
+      <input type="checkbox" id="toyota" name="cars3" value="toyota" />
+      <label for="toyota">Toyota</label>
+      <br />
+      <br />
+      <label for="dob">Date of Birth</label> <br />
+      <input type="date" name="dob" id="dob" min="1990-01-01" />
       <!-- buttons -->
+      <br /><br />
+      <!-- select -->
+      <section>
+        <select name="tatli" id="tatli">
+          <option value="kunefe">kunefe</option>
+          <option value="baklava">Baklava</option>
+          <option value="muhallebi">muhallebi</option>
+        </select>
+      </section>
+      <br />
+      <br />
+      <!-- textarea -->
+      <section>
+        <label for="comment">comment:</label>
+        <br />
+        <textarea
+          name="comment"
+          id="comment"
+          cols="50"
+          rows="10"
+          style="resize: none"
+          maxlength="100"
+          placeholder=" maksimum 100 characters"
+        ></textarea>
+      </section>
       <section id="buttons">
         <input type="submit" />
         <input type="submit" value="Save" />
